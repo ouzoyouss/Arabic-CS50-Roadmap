@@ -1,0 +1,59 @@
+button {
+    margin-top: 10px;
+    text-align: center;
+    width: px;        /* العرض */
+    height: px;       /* الارتفاع */
+    font-size: 18px;    /* حجم الخط */
+    border-radius: 8px; /* لو عايز الزرار يكون بحواف ناعمة */
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.days{
+    margin-left: 350px;
+    
+}
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;           /* تخلي الصورة تغطي الشاشة كلها */
+    background-repeat: no-repeat;     /* تمنع تكرار الصورة */
+    background-position: center;      /* تخلي الصورة في المنتصف */
+    background-attachment: fixed;     /* تخلي الصورة ثابتة لما تعمل سكرول */
+    margin: 0;                        /* تشيل أي فراغات حوالين الصفحة */
+    padding: 0;
+    height: 100vh; 
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+button:hover{
+    background-color: rgb(255, 0, 0);
+    transform: scale(1.2);
+}
+h1 {
+    background: rgba(255, 255, 255, 0.1); /* خلفية شفافة شوية */
+    backdrop-filter: blur(10px);         /* درجة البلور */
+    -webkit-backdrop-filter: blur(10px);
+    margin-left:350px ;
+    margin-right:350px ;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+h2{
+    background: rgba(255, 255, 255, 0.1); /* خلفية شفافة شوية */
+    backdrop-filter: blur(10px);         /* درجة البلور */
+    -webkit-backdrop-filter: blur(10px);
+    margin-left:450px ;
+    margin-right:450px ;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+h1:hover{
+    transform: scale(1.2);
+}
+h2:hover{
+    transform: scale(1.2);
+}
