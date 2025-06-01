@@ -30,7 +30,7 @@ body{
     font-style: normal;
 }
 button:hover{
-    background-color: rgb(255, 0, 0);
+    background-color: green;
     transform: scale(1.2);
 }
 h1 {
